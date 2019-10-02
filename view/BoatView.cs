@@ -17,7 +17,7 @@ namespace _1dv607.view
         {
             Console.WriteLine("Delete Boat");
         }
-        public void BoatMenu(UserModel user)
+        public void BoatMenu()
         {
             Console.WriteLine("Show boat Menu");
         }

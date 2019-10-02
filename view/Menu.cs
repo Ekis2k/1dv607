@@ -6,7 +6,7 @@ namespace _1dv607.view
     class Menu
     {
         UserModel um = new UserModel();
-        BoatModel mv = new BoatModel();
+        BoatModel bm = new BoatModel();
         UserView uv = new UserView();
         BoatView bv = new BoatView();
         private enum MenuOptions
@@ -39,6 +39,20 @@ namespace _1dv607.view
                     case (int)MenuOptions.Delete:
                         uv.DeleteMember(um);
                         return;
+                    case (int)MenuOptions.Show:
+                        uv.ShowSingleMember(um);
+                        return;
+                    case (int)MenuOptions.Compact:
+                        uv.CompactList(um, bm);
+                        return;
+                    case (int)MenuOptions.Verbose:
+                        uv.VerboseList(um, bm);
+                        return;
+                    case (int)MenuOptions.Boats:
+                        bv.BoatMenu();
+                        return;
+                    default:
+                        break;
                 }
             }
         }
