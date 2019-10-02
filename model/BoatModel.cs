@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Xml;
 using System.Xml.Linq;
 
-namespace model
+namespace _1dv607.model
 {
     class BoatModel
     {
