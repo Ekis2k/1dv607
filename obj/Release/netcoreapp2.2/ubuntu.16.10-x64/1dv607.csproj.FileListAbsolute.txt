@@ -1,0 +1,14 @@
+/Users/ekis/Documents/1dv607/bin/release/netcoreapp2.2/ubuntu.16.10-x64/libhostpolicy.so
+/Users/ekis/Documents/1dv607/bin/release/netcoreapp2.2/ubuntu.16.10-x64/libhostfxr.so
+/Users/ekis/Documents/1dv607/bin/release/netcoreapp2.2/ubuntu.16.10-x64/1dv607
+/Users/ekis/Documents/1dv607/bin/release/netcoreapp2.2/ubuntu.16.10-x64/1dv607.deps.json
+/Users/ekis/Documents/1dv607/bin/release/netcoreapp2.2/ubuntu.16.10-x64/1dv607.runtimeconfig.json
+/Users/ekis/Documents/1dv607/bin/release/netcoreapp2.2/ubuntu.16.10-x64/1dv607.runtimeconfig.dev.json
+/Users/ekis/Documents/1dv607/bin/release/netcoreapp2.2/ubuntu.16.10-x64/1dv607.dll
+/Users/ekis/Documents/1dv607/bin/release/netcoreapp2.2/ubuntu.16.10-x64/1dv607.pdb
+/Users/ekis/Documents/1dv607/obj/release/netcoreapp2.2/ubuntu.16.10-x64/1dv607.csprojAssemblyReference.cache
+/Users/ekis/Documents/1dv607/obj/release/netcoreapp2.2/ubuntu.16.10-x64/1dv607.csproj.CoreCompileInputs.cache
+/Users/ekis/Documents/1dv607/obj/release/netcoreapp2.2/ubuntu.16.10-x64/1dv607.AssemblyInfoInputs.cache
+/Users/ekis/Documents/1dv607/obj/release/netcoreapp2.2/ubuntu.16.10-x64/1dv607.AssemblyInfo.cs
+/Users/ekis/Documents/1dv607/obj/release/netcoreapp2.2/ubuntu.16.10-x64/1dv607.dll
+/Users/ekis/Documents/1dv607/obj/release/netcoreapp2.2/ubuntu.16.10-x64/1dv607.pdb
