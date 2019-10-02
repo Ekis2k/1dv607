@@ -5,6 +5,10 @@ namespace _1dv607.view
 {
     class Menu
     {
+        UserModel um = new UserModel();
+        BoatModel mv = new BoatModel();
+        UserView uv = new UserView();
+        BoatView bv = new BoatView();
         private enum MenuOptions
         {
             Exit = 0,
@@ -25,6 +29,15 @@ namespace _1dv607.view
                 {
                     case (int)MenuOptions.Exit:
                         Environment.Exit(0);
+                        return;
+                    case (int)MenuOptions.Add:
+                        uv.AddMember(um);
+                        return;
+                    case (int)MenuOptions.Change:
+                        uv.EditMember(um);
+                        return;
+                    case (int)MenuOptions.Delete:
+                        uv.DeleteMember(um);
                         return;
                 }
             }
