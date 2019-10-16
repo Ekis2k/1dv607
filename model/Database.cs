@@ -2,25 +2,19 @@ using System;
 using System.Xml;
 using System.Xml.Linq;
 
-namespace model
+namespace _1dv607
 {
     class Database
     {
         private string _filePath = "BoatClub.xml";
-        XDocument xmlDocument;
-        public string Path
-        {
-            get { return _filePath; }
-            set { _filePath = value; }
-        }
+        XDocument xmlDoc;
+
+        public string Path { get => _filePath; set => _filePath = value; }
 
         public XDocument GetDocument()
         {
-            return xmlDocument;
-        }
-        public Database()
-        {
-            xmlDocument = XDocument.Load(Path);
+            xmlDoc = XDocument.Load(Path);
+            return xmlDoc;
         }
     }
 }
